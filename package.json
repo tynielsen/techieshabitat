@@ -1,9 +1,9 @@
 {
-  "name": "techiehabitat",
+  "name": "techieshabitat",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://tynielsen.github.io/techiehabitat/",
+  "homepage": "https://tynielsen.github.io/techieshabitat/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
