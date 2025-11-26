@@ -32,7 +32,7 @@ export function Navigation({ activePage, onPageChange, theme, onThemeToggle }: N
           <div className="flex items-center space-x-2">
             <Monitor className="w-8 h-8 text-blue-600" />
             <span className={`text-xl font-bold ${theme === 'dark' ? 'text-gray-100' : 'text-gray-800'}`}>
-              Tech Wellness Hub
+              Techies Habitat
             </span>
           </div>
 

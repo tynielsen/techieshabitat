@@ -15,17 +15,15 @@ export function useHealthReminders() {
 
     setTimeout(() => {
       setNotifications(prev => prev.filter(n => n.id !== notification.id));
-    }, 5000);
+    }, 500);
   }, []);
 
   useEffect(() => {
-    // For demo: 10 seconds for water, 15 seconds for stand
-    // Production: 3600000 (1 hour) and 1800000 (30 min)
-    const waterInMinutes = 1800000 / 60;
-    const standIntervalInMinutes = 1800000 / 60;
+    const waterTiming = 1800000;
+    const standIntervalTime = 3600000;
 
-    const waterInterval = setInterval(() => addNotification('water'), waterInMinutes);
-    const standInterval = setInterval(() => addNotification('stand'), standIntervalInMinutes);
+    const waterInterval = setInterval(() => addNotification('water'), waterTiming);
+    const standInterval = setInterval(() => addNotification('stand'), standIntervalTime);
 
     return () => {
       clearInterval(waterInterval);

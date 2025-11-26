@@ -1,9 +1,10 @@
 export function Footer() {
   return (
     <footer className="bg-gray-800 text-white py-6 mt-12">
-      <div className="max-w-7xl mx-auto px-4 text-center">
-        <p className="text-gray-400">Your health and productivity matter. Take care of yourself! 💙</p>
-          <p className="text-gray-400">&copy; Copyright {new Date().getFullYear()} - TechiesHabitat by MxTyler.com. Built with modern AI-assisted development tools.</p>
+      <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
+        <p>&copy; Copyright {new Date().getFullYear()} - TechiesHabitat.com</p>
+        <p className="text-[1.5rem]">Your health and productivity matter. Take care of yourself! 💙</p>
+        <p>Built with React.js &amp; TailwindCSS</p>
       </div>
     </footer>
   );

@@ -15,10 +15,11 @@ export function HomePage({ theme }: HomePageProps) {
           theme === 'dark' ? 'bg-linear-to-r from-blue-600 to-purple-700' : 'bg-linear-to-r from-blue-500 to-purple-600'
         } rounded-lg p-6 md:p-8 text-white`}
       >
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">Tech Worker Wellness Hub</h1>
+        <h1 className="text-3xl md:text-4xl font-bold mb-4">Techies Habitat: Office Worker Wellness Hub</h1>
         <p className="text-lg md:text-xl opacity-90">
-          Your complete resource for staying healthy, productive, and informed in tech
+          Your complete resource for staying healthy, productive, and informed in with the latest news in the tech industry.
         </p>
+        <p className={`text-xs mt-5`}>(This site was built using modern AI-assisted development tools.)</p>
       </header>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
