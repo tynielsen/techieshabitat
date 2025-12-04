@@ -2,7 +2,7 @@
   "name": "techieshabitat",
   "version": "1.0.1",
   "type": "module",
-  "homepage": "https://tynielsen.github.io/techieshabitat/",
+  "homepage": "techieshabitat.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
