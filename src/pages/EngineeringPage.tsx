@@ -17,8 +17,8 @@ export function EngineeringPage({ theme }: EngineeringPageProps) {
       </header>
 
       {engineeringResources.map((section, idx) => (
-        <Card key={idx} theme={theme}>
-          <h2 className={`text-2xl font-semibold mb-4 ${theme === 'dark' ? 'text-green-400' : 'text-green-600'}`}>
+        <Card key={idx} className={`${theme === 'dark' ? 'bg-pink-700' : 'bg-pink-200'}`}>
+          <h2 className={`text-2xl font-semibold mb-4 ${theme === 'dark' ? 'text-green-500' : 'text-black'}`}>
             {section.category}
           </h2>
           <div className="grid sm:grid-cols-2 gap-3">

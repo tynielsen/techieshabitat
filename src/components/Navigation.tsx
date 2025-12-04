@@ -11,10 +11,10 @@ interface NavigationProps {
 
 const navigationItems = [
   { id: 'home' as PageId, label: 'Home', icon: Home },
-  { id: 'desk' as PageId, label: 'Desk Setup', icon: Monitor },
   { id: 'health' as PageId, label: 'Health & Wellness', icon: Heart },
-  { id: 'news' as PageId, label: 'Tech News', icon: Newspaper },
   { id: 'engineering' as PageId, label: 'Engineering', icon: Code },
+  { id: 'news' as PageId, label: 'Tech News', icon: Newspaper },
+  { id: 'desk' as PageId, label: 'Desk Setup', icon: Monitor },
 ];
 
 export function Navigation({ activePage, onPageChange, theme, onThemeToggle }: NavigationProps) {

@@ -10,7 +10,7 @@ export function Card({ children, className = '', theme = 'light' }: CardProps) {
   return (
     <div
       className={`${
-        theme === 'dark' ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'
+        theme === 'dark' ? 'border-gray-700' : 'border-gray-200'
       } rounded-lg p-6 shadow-md border ${className}`}
     >
       {children}
