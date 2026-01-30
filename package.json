@@ -1,12 +1,13 @@
 {
   "name": "techieshabitat",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "homepage": "techieshabitat.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
+    "predeploy": "tsc && vite build",
     "deploy": "gh-pages -d dist",
     "test": "vitest",
     "test:ui": "vitest --ui",
