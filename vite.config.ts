@@ -11,7 +11,7 @@ export default defineConfig(({ command }) => {
     base: '/',
   }
   if (command !== 'serve') {
-    config.base = ''
+    config.base = '/techieshabitat/'
   }
   return config
 })   
